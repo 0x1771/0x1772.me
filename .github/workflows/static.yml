@@ -40,5 +40,5 @@ jobs:
       - name: Cache (enable with appropriate path and key)
         uses: actions/cache@v4.0.1
         with:
-          path: 'build'  # Replace with your static content directory
+          path: 'main'  # Replace with your static content directory
           key: ${{ runner.os }}-${{ github.sha }}
